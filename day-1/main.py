@@ -32,6 +32,7 @@ def __main__():
     input = inputFile.readlines()
     allCalories = part1(input)
     part2(allCalories)
+    inputFile.close()
 
 
 if __name__ == "__main__":
