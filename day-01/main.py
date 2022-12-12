@@ -28,7 +28,7 @@ def part2(allCalories):
 
 
 def __main__():
-    inputFile = open("day-1/input.txt")
+    inputFile = open("day-01/input.txt")
     input = inputFile.readlines()
     allCalories = part1(input)
     part2(allCalories)

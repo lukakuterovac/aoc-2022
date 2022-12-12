@@ -73,7 +73,7 @@ def part2(input):
 
 
 def main():
-    inputFile = open("day-8/input.txt")
+    inputFile = open("day-08/input.txt")
     input = inputFile.readlines()
     parsedInput = parseInput(input)
     part1(parsedInput)

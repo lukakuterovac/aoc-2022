@@ -50,7 +50,7 @@ def part2(crates, moves):
 
 
 def main():
-    inputFile = open("day-5/input.txt")
+    inputFile = open("day-05/input.txt")
     input = inputFile.readlines()
     crates = input[0:9]
     moves = input[10:]

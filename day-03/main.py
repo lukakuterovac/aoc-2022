@@ -43,7 +43,7 @@ def part2(input):
 
 
 def main():
-    inputFile = open("day-3/input.txt")
+    inputFile = open("day-03/input.txt")
     input = inputFile.readlines()
     part1(input)
     part2(input)

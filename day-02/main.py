@@ -34,9 +34,6 @@ def part1(input):
     print(totalScore)
 
 
-# "Anyway, the second column says how the round needs to end:
-# X means you need to lose, Y means you need to end the round in a draw,
-# and Z means you need to win. Good luck!"
 def part2(input):
     totalScore = 0
     for entry in input:
@@ -69,7 +66,7 @@ def part2(input):
 
 
 def __main__():
-    inputFile = open("day-2/input.txt")
+    inputFile = open("day-02/input.txt")
     input = inputFile.readlines()
     part1(input)
     part2(input)
